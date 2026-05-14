@@ -102,47 +102,6 @@ The report identifies AdaBoost as the best-performing model by accuracy, while K
 - SVM performed poorly for the flood class because it predicted almost all samples as no flood in the tested configuration.
 - The project is useful as a comparative ML baseline, not as a deployable emergency-response tool.
 
-## Repository Structure
-
-```text
-.
-├── Sec_01_Group_No_04_22101174_22101452_22101821.ipynb   # Main notebook with EDA, preprocessing, model training, and evaluation
-├── Sec 01_Group No 04_22101174_22101452_22101821.pdf     # Project report / paper
-└── README.md                                             # Project documentation
-```
-
-## Requirements
-
-Install the following Python libraries before running the notebook:
-
-```bash
-pip install numpy pandas matplotlib seaborn scikit-learn
-```
-
-## How to Run
-
-1. Clone the repository:
-
-```bash
-git clone <your-repository-url>
-cd <your-repository-name>
-```
-
-2. Install dependencies:
-
-```bash
-pip install numpy pandas matplotlib seaborn scikit-learn
-```
-
-3. Open the Jupyter notebook:
-
-```bash
-jupyter notebook Sec_01_Group_No_04_22101174_22101452_22101821.ipynb
-```
-
-4. Run all cells from top to bottom.
-
-The notebook loads the dataset directly from a Google Drive CSV link, so internet access is required unless the dataset is downloaded and loaded locally.
 
 ## Evaluation Metrics
 
